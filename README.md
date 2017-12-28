@@ -1,25 +1,19 @@
-# [JRO UI ADMIN]
+# JRO UI ADMIN
 [![version][version-badge]][CHANGELOG]
 
+Clean Admin UI based on bootstrap 4
 
-**[JRP UI ADMIN]** admin dashboard template. It is built on top of Bootstrap 4
+# Plugins
 
-#Instruction
-Important files:
+* **Bootstrap:** <https://getbootstrap.com/>
 
--jro-ui-admin.css
+* **Animate.CSS:** <https://github.com/daneden/animate.css>
 
-## Plugins
+* **Bootsrap-DatePicker:** <http://bootstrap-datepicker.readthedocs.io/en/latest/>
 
-Bootstrap 4: <https://getbootstrap.com/>
+* **Nucleo:** <https://nucleoapp.com/>
 
-Animate.CSS: <https://github.com/daneden/animate.css>
-
-Bootsrap-DatePicker: <http://>
-
-Nucleo: <https://nucleoapp.com/>
-
-Chart.JS: <http://>
+* **Chart.JS:** <http://www.chartjs.org/>
 
 [CHANGELOG]: ./CHANGELOG.md
 [version-badge]: https://img.shields.io/badge/version-2.0.1-blue.svg
