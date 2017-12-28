@@ -1,0 +1,97 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:50:43 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:50:43 
+ */
+ 
+$blue:                      #007bff;
+$indigo:                    #6610f2;
+$purple:                    #6f42c1;
+$pink:                      #e83e8c;
+$red:                       #ff3b30;
+$orange:                    #fd7e14;
+$yellow:                    #ffc107;
+$green:                     #28a745;
+$teal:                      #20c997;
+$cyan:                      #17a2b8;
+$white:                     #fff;
+$gray:                      #868e96;
+$gray-dark:                 #343a40;
+$primary:                   #007bff;
+$secondary:                 #868e96;
+$success:                   #28a745;
+$info:                      #17a2b8;
+$warning:                   #ffc107;
+$danger:                    #dc3545;
+$light:                     #f8f9fa;
+$dark:                      #343a40;
+
+$none:                       0 !default;
+
+$white-color:                #FFFFFF !default;
+$white-bg:                   #FFFFFF !default;
+
+$smoke-color:                #F5F5F5 !default;
+$smoke-bg:                   #F5F5F5 !default;
+
+$light-black-color:          #3c3c3c !default;
+$medium-black-color:         #434857 !default;
+$black-color:                #000 !default;
+$black-bg:                   #000 !default;
+
+$light-blue:                 #1997c6 !default;
+$blue:                       #0080fc !default;
+
+$light-gray:                 #e2e3e6 !default;
+$medium-gray:                #DDDDDD !default;
+$medium-dark-gray:           #AAAAAA !default;
+$dark-gray:                  #9A9A9A !default;
+
+$inactive-gray:              #868688 !default;
+$container-gray:             #acb2bd !default;
+$container-modal:            #efeff4 !default;
+$container-modal-header:     #e0e0e1 !default;
+
+/*Content*/
+$content-bg:                 #FFF !default;
+$content-font-color:         #000 !default;
+
+/*Sidebar*/
+$sidebar-brand-bg:           $container-gray;
+$sidebar-icon:               $medium-black-color;
+$sidebar-icon-active:        $blue;
+$sidebar-icon-bg-active:     $content-bg;
+$sidebar-bg:                 $container-modal;
+$sidebar-icon-divider:       $container-modal-header;
+
+$light-sidebar:              $white-color;
+$gray-sidebar:               $medium-dark-gray;
+$dark-sidebar:               $sidebar-bg;
+
+/*Dash head*/
+$dash-head-subtitle:         $inactive-gray;
+
+/*Nav tab*/
+$nav-tab-font:               $inactive-gray;
+$nav-tab-font-hover:         $blue;
+$nav-tab-hr:                 $blue;
+
+/*Heading divider*/
+$heading-divider-bg:         $white-bg;
+$heading-divider-line:       $inactive-gray;
+$heading-divider-font:       $inactive-gray;
+
+/*Form*/
+$form-input-font:            $black-color;
+$form-input-bg:              $light-gray;
+$form-input-border:          $light-gray;
+
+$form-inputgroup-font:       $medium-dark-gray;
+$form-inputgroup-bg:         $light-gray;
+$form-inputgroup-border:     $light-gray;
+
+/*Stat card*/
+$statcard-positive:          $success;
+$statcard-negative:          $red;
+$statcard-desc:              $inactive-gray;

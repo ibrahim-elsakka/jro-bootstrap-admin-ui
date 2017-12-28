@@ -1,0 +1,41 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:50:16 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:50:16 
+ */
+ 
+.nav-tabs {
+  border-bottom: transparent;
+
+  > li:first-of-type > a {
+    padding-left: 0 !important;
+  }
+
+  .nav-item {
+    .nav-link {
+      padding: 10px 10px;
+      color: $nav-tab-font;
+      border: transparent;
+
+      &:hover, &:focus {
+        color: $nav-tab-font-hover;
+      }
+    }
+
+    .nav-link.active {
+      display: inline-block;
+      padding: 10px 10px;
+      color: $nav-tab-font-hover;
+      border-bottom: 4px solid $nav-tab-font-hover;
+      background-color: transparent;
+    }
+  }
+}
+
+.nav-tab-hr {
+  margin-top: 0 !important;
+  margin-bottom: 3rem !important;
+  border: 0;
+  border-top: 1px solid $nav-tab-hr;
+}

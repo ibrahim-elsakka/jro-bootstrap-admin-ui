@@ -1,0 +1,36 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:51:24 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:51:24 
+ */
+ 
+.statcard {
+  padding: 1rem 0 !important;
+
+  .statcard-number {
+    margin-top: 0;
+    margin-bottom: 0;
+    .statcard-indicator {
+      display: inline-block;
+      padding: .4em;
+      font-size: 12px;
+      vertical-align: middle;
+    }
+  }
+
+  .positive {
+    color: $statcard-positive;
+  }
+
+  .negative {
+    color: $statcard-negative;
+  }
+
+  .statcard-desc {
+    font-size: 70%;
+    letter-spacing: .15em;
+    color: $statcard-desc;
+    text-transform: uppercase;
+  }
+}

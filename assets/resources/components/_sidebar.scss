@@ -1,0 +1,145 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:50:02 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:50:02 
+ */
+
+.icon-nav-slider {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+.nav-wrapper {
+  margin-bottom: 30px;
+}
+
+.iconav-brand-icon {
+  font-size: 30px;
+}
+
+.iconav-nav-label {
+  display: block;
+  font-size: 11px;
+}
+
+.nav-icon-brand {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 1;
+  color: $smoke-color;
+  text-align: center;
+  border-bottom: 0;
+  background-color: $sidebar-brand-bg;
+}
+
+.nav-pills {
+
+  .nav-item {
+    float: none;
+    display: inline-block;
+
+    .nav-link {
+      position: relative;
+      padding: 10px 12px;
+      font-size: 18px;
+      color: inherit;
+      text-align: center;
+      border-radius: 0;
+
+      .nav-avatar {
+        width: 18px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+/* Extra small viewport or screen */
+@media only screen and (min-width: 480px) {
+  // write CSS properties here
+}
+
+/* Small viewport or screen */
+@media only screen and (min-width: 768px) {
+
+  .nav-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: $sidebar-bg;
+    overflow-y: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  .nav-icon-brand {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &:hover {
+      color: $light-gray;
+    }
+  }
+
+  .nav-pills {
+
+    .nav-item {
+      display: block;
+
+      .nav-link {
+        color: $sidebar-icon;
+        padding: 20px;
+        border-top: 1px solid $sidebar-icon-divider;
+        border-right: 0;
+
+        .nav-avatar {
+          width: 26px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+/* Medium viewport or screen */
+@media only screen and (min-width: 992px) {
+  // write CSS properties here
+}
+
+/* Large viewport or screen */
+@media only screen and (min-width: 1200px) {
+  // write CSS properties here
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.iconav-nav {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.nav-item {
+  display: block;
+  //padding: 0.5rem 0rem;
+
+  .nav-link.active {
+    color: $sidebar-icon-active;
+    background-color: $sidebar-icon-bg-active;
+  }
+}

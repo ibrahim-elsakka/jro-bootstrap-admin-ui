@@ -1,0 +1,65 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-23 16:43:02 
+ * @Last Modified by: Jestoni Obice
+ * @Last Modified time: 2017-12-23 16:50:05
+ */
+
+//Dark Theme
+//@import "components/dark-theme-variables";
+
+//Light Theme
+@import "components/light-theme-variables";
+
+
+body {
+  color: $content-font-color;
+  background-color: $content-bg;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.1;
+  color: $content-font-color;
+}
+
+.datepicker-days table {
+  color: $light-black-color;
+}
+
+
+@import "components/buttons";
+@import "components/heading-divider";
+@import "components/sidebar";
+@import "components/main-panel";
+@import "components/nav-tabs";
+@import "components/form";
+@import "components/modal";
+@import "components/card";
+
+/* Extra small viewport or screen */
+@media only screen and (min-width : 480px) {
+  // write CSS properties here
+}
+
+/* Small viewport or screen */
+@media only screen and (min-width : 768px) {
+  body {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+}
+
+/* Medium viewport or screen */
+@media only screen and (min-width : 992px) {
+  // write CSS properties here
+}
+
+/* Large viewport or screen */
+@media only screen and (min-width : 1200px) {
+  // write CSS properties here
+}
+
+

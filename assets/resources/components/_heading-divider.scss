@@ -1,0 +1,41 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:50:53 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:50:53 
+ */
+ 
+.heading-divider {
+  position: relative;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: $heading-divider-line;
+  }
+
+  .heading-divider-title {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: $heading-divider-font;
+    vertical-align: middle;
+    background-color: $heading-divider-bg;
+  }
+  .heading-divider-content {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100%;
+    color: inherit;
+  }
+}

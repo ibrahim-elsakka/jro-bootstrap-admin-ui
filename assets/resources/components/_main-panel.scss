@@ -1,0 +1,54 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:50:36 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:50:36 
+ */
+ 
+.dash-head {
+  :after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  .dash-titles {
+    .dash-subtitle {
+      margin-top: 0;
+      margin-bottom: 5px;
+      font-weight: normal;
+      font-size: 85%;
+      color: $dash-head-subtitle;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .dash-title {
+      margin-top: 0;
+    }
+  }
+}
+
+/* Extra small viewport or screen */
+@media only screen and (min-width : 480px) {
+  // write CSS properties here
+}
+
+/* Small viewport or screen */
+@media only screen and (min-width : 768px) {
+  .content-panel {
+    padding-left: 6rem;
+  }
+
+  .dash-titles {
+    float: left;
+  }
+}
+
+/* Medium viewport or screen */
+@media only screen and (min-width : 992px) {
+  // write CSS properties here
+}
+
+/* Large viewport or screen */
+@media only screen and (min-width : 1200px) {
+  // write CSS properties here
+}

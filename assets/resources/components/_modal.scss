@@ -1,0 +1,16 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:50:31 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:50:31 
+ */
+ 
+.modal-content {
+  background-color: $container-modal;
+  border: 0px solid $container-modal;
+  border-radius: 1rem;
+}
+
+.modal-header {
+  border-bottom: 1px solid $container-modal-header;
+}

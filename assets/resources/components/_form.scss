@@ -1,0 +1,40 @@
+/*
+ * @Author: Jestoni Obice 
+ * @Date: 2017-12-27 14:51:00 
+ * @Last Modified by:   Jestoni Obice 
+ * @Last Modified time: 2017-12-27 14:51:00 
+ */
+ 
+.form-control {
+  font-size: 0.9rem;
+  line-height: 1.25;
+  color: $form-input-font;
+  background-color: $form-input-bg;
+  background-image: none;
+  border: 1px solid $form-input-border;
+  border-radius: 0.25rem;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+
+  &:focus {
+    color: #495057;
+    border-color: $form-input-border;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.input-group-addon {
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: $form-inputgroup-font;
+  text-align: center;
+  background-color: $form-inputgroup-bg;
+  border: 1px solid $form-inputgroup-border;
+  border-radius: 0.25rem;
+}
