@@ -43,4 +43,8 @@ $(document).ready(function(){
             }
         }
     });
+
+
+    //Feather icons
+    feather.replace();
 });

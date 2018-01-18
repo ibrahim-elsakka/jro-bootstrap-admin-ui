@@ -50,6 +50,12 @@ gulp.task('copy-css-fontawesome-fonts', function() {
         .pipe(gulp.dest('./assets/fonts/'));
 });
 
+gulp.task('copy-icons-feathericons', function() {
+    gulp.src(['./node_modules/feather-icons/dist/icons/*'])
+        .pipe(gulp.dest('./assets/plugins/js/icons/'));
+});
+
+
 gulp.task('copy-css-animate', function() {
     gulp.src(['./node_modules/animate.css/animate.css'])
         .pipe(gulp.dest('./assets/plugins/css/'));
@@ -94,6 +100,10 @@ gulp.task('copy-js-chartjs', function() {
         .pipe(gulp.dest('./assets/plugins/js/'));
 });
 
+gulp.task('copy-js-feathericons', function() {
+    gulp.src(['./node_modules/feather-icons/dist/feather.min.js'])
+        .pipe(gulp.dest('./assets/plugins/js/'));
+});
 
 
 
@@ -111,5 +121,7 @@ gulp.task('default', [
     'copy-js-moment',
     'copy-js-popper',
     'copy-js-datepicker',
-    'copy-js-chartjs'
+    'copy-js-chartjs',
+    'copy-icons-feathericons',
+    'copy-js-feathericons'
 ]);
